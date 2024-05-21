@@ -1,0 +1,56 @@
+[33mcommit 9ae08ed7cfb4e60513248213df0517c4a84c737b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mcristianMarcus[m[33m, [m[1;31morigin/cristianMarcus[m[33m)[m
+Author: MarcusCristian <cristianmarcus34@gmail.com>
+Date:   Tue May 21 15:54:45 2024 -0300
+
+    solucione errores de sintaxis
+
+[33mcommit 438504b587f53828167ef3d1e7289c0f831642e2[m
+Author: MarcusCristian <cristianmarcus34@gmail.com>
+Date:   Tue May 21 15:43:03 2024 -0300
+
+    agregue la vista y la url de contacto.html
+
+[33mcommit 0fc24eaf8d4ff3ea12c2da89a1fe3c2910e05e06[m
+Author: MarcusCristian <cristianmarcus34@gmail.com>
+Date:   Tue May 21 15:36:59 2024 -0300
+
+    cargue plantilla index y archivos estaticos
+
+[33mcommit f004b8b2cf75007ae8169f5f7a43af284cfd9662[m
+Author: MarcusCristian <cristianmarcus34@gmail.com>
+Date:   Tue May 21 12:41:15 2024 -0300
+
+    soluciono conflicto de merge
+
+[33mcommit a586b414182e20e0830fffd66e602c08d1e6f003[m
+Merge: c84b99c b254573
+Author: MarcusCristian <cristianmarcus34@gmail.com>
+Date:   Tue May 21 12:38:05 2024 -0300
+
+    Merge branch 'main' into cristianMarcus
+
+[33mcommit b254573e562eb1cbf19e133ad55bdb9f25844110[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: MarcusCristian <cristianmarcus34@gmail.com>
+Date:   Tue May 21 12:30:29 2024 -0300
+
+    agregue plantillas index,contacto,somos,reservas
+
+[33mcommit c84b99c2d87ebaad84b58cdec9dad3ce62d7f078[m
+Author: Your Name <cristianmarcus34@gmail.com>
+Date:   Fri May 17 18:48:52 2024 -0300
+
+    cree static y templates+agrege plantillas+img+css+js
+
+[33mcommit a637255e4724329bc49ab85f7029ba7509f14f88[m
+Author: Cristian Marcus <cristianmarcus34@gmail.com>
+Date:   Fri May 10 10:16:37 2024 -0300
+
+    estructura basica
+    
+    agrege los archivos basicos para el proyecto
+
+[33mcommit 5078e29f8ed7a476963aabb9a40bdcc4ba473c84[m
+Author: Cristian Marcus <cristianmarcus34@gmail.com>
+Date:   Fri May 10 10:04:33 2024 -0300
+
+    Initial commit

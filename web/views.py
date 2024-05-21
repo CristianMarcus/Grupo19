@@ -9,6 +9,15 @@ def contacto(request):
 
     return render(request, 'web/contacto.html')
 
+def somos(request):
+
+    return render(request, 'web/somos.html')
+
+def reserva(request):
+
+    return render(request, 'web/reservas.html')
+
+
 
 # def contacto(request):
 #          contexto = {
