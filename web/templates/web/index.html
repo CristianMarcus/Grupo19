@@ -1,0 +1,248 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    comisión:="24309"
+    grupo:="19"
+    integrantes:="Martín, Martín, Cristian, Damian, G Briceño" >
+  <link rel="shortcut icon" href="img/icono.svg" type="image/x-icon">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+  />
+
+  <link rel="stylesheet" href="css/estilo.css">
+  <title>CANCHAS CANCHERAS - Home</title>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="w100">
+  <section class="contenedorHeader">
+    <div id="logo">
+      <a href="index.html">
+        <img src="img/logo.svg" />
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="somos.html">Quienes Somos</a></li>
+        <li><a href="reservas.html">Reservá tu cancha</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+      <ul>
+        <li><button class="botonDos">Crear Cuenta</button></li>
+        <li><button class="boton">Iniciar Sesión</button></li>
+      </ul>
+    </nav>
+  </section>
+</header>
+
+<!-- MAIN -->
+<main id="novedades">
+  <ul id="carrusel" class="w100">
+    <li id="carruselPrincipal" class="carruseles">
+      <div class="contenedor">
+        <h1>Bienvenido a <span>Canchas Cancheras</span></h1>
+        <img src="img/logoBlanco.svg">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec
+          mi sed odio tristique aliquet. 
+        </p>
+      </div>
+    </li>
+    <li id="carruselDos" class="carruseles w100">
+      <div class="contenedor">
+        <p class="titulo">Título motivador 1</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec
+          mi sed odio tristique aliquet. 
+        </p>
+      </div>
+    </li>
+    <li id="carruselTres" class="carruseles w100">
+      <div class="contenedor">
+        <p class="titulo">Título motivador 2</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec
+          mi sed odio tristique aliquet.
+        </p>
+      </div>
+    </li>
+    <li id="carruselCuatro" class="carruseles w100">
+      <div class="contenedor">
+        <p class="titulo">Título motivador 3</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec
+          mi sed odio tristique aliquet.
+        </p>
+      </div>
+    </li>
+    <!-- BOTONES -->
+    <a id="botonAnterior">
+      <i class="fas fa-angle-left" aria-hidden="true"></i>
+    </a>
+    <a id="botonSiguiente">
+      <i class="fas fa-angle-right" aria-hidden="true"></i>
+    </a>
+  </ul>
+</main>
+<!-- CANCHAS -->
+<section id="canchas">
+  <article class="contenedor">
+    <h2><i class="fa-regular fa-futbol"></i> Conocé nuestras canchas</h2>
+      <ul>
+        <li><img src="img/canchita-01.jpg" alt="Cancha 1"></li>
+        <li><img src="img/canchita-02.jpg" alt="Cancha 2"></li>
+        <li><img src="img/canchita-03.jpg" alt="Cancha 3"></li>
+        <li><img src="img/canchita-04.jpg" alt="Cancha 4"></li>
+        <li><img src="img/canchita-04.jpg" alt="Cancha 5"></li>
+        <li><img src="img/canchita-03.jpg" alt="Cancha 6"></li>
+        <li><img src="img/canchita-02.jpg" alt="Cancha 7"></li>
+        <li><img src="img/canchita-01.jpg" alt="Cancha 8"></li>
+      </ul>
+      <button class="boton"><p>Reservá tu cancha</p></button>
+  </article>
+</section>
+
+
+<!-- CREA TU CUENTA-->
+<section id="creaTuCuenta">
+  <article class="contenedor">
+    <img class="mobileImg" src="img/creaTuCuenta.svg" alt="">
+    <ul clas="listaIconos">
+      <h2>Creá tu cuenta y empezá a reservar tus turnos.</h2>
+      <li>
+        <i class="fa-solid fa-rocket"></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </li>
+      <li>
+        <i class="fa-solid fa-pen"></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </li>
+      <li>
+        <i class="fa-regular fa-square-check"></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </li>
+      <li>
+        <i class="fa-regular fa-floppy-disk"></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </li>
+      <button class="boton"><p>Quiero crear mi cuenta</p></button>
+    </ul>
+    <div class="ilustracion"></div>
+  </article>
+
+</section>
+
+
+<!-- reservaTuCancha -->
+<section id="reservaTuCancha">
+  <article class="contenedor">
+    <h2><i class="fa-regular fa-futbol"></i> Reservá tu cancha</h2>
+
+    <div class="row">
+
+      <form id="formularioReservas" class="w50">
+        <div class="row w100">
+          <div class="w50 column">
+          <input type="text" id="nombre" placeholder="NOMBRE: Carlos Perez">
+          <input type="tel" id="telefono" placeholder="TELÉFONO: +54 1234 5678">
+          <input type="text" id="dni" placeholder="DNI: +12.345.678">
+        </div>
+        <div class="w50 column">
+          <select id="horario">
+            <option value="" disabled selected hidden>Elegí tu horario</option>
+            <option value="16:00">16:00</option>
+            <option value="17:00">17:00</option>
+            <option value="18:00">18:00</option>
+            <option value="19:00">19:00</option>
+            <option value="20:00">20:00</option>
+            <option value="21:00">21:00</option>
+            <option value="22:00">22:00</option>
+            <option value="23:00">23:00</option>
+          </select>
+          <select id="tipoDeCancha">
+            <option value="" disabled selected hidden>Elegí el tipo de cancha</option>
+            <option value="cancha_de_5">Cancha de 5</option>
+            <option value="cancha_de_7">Cancha de 7</option>
+            <option value="cancha_de_11">Cancha de 11</option>
+          </select>
+          <select id="metodoDePago">
+            <option value="" disabled selected hidden>Elegí el método de pago</option>
+            <option value="cancha_de_7">Transferencia</option>
+            <option value="cancha_de_5">Mercado Pago</option>
+            <option value="cancha_de_11">Pago Mis Cuentas</option>
+          </select>
+        </div>
+      </div>
+      <textarea name="mensaje" id="" cols="30" rows="10" placeholder="¿Querés dejanos algún comentario extra?"></textarea>
+      <button class="boton" type="submit">Enviar</button>
+      <p id="error"></p>
+    </form>
+      <ul class="listaIconos w50">
+        <li>
+          <i class="fa-regular fa-futbol"></i>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </li>
+        <li>
+          <i class="fa-solid fa-volleyball"></i>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </li>
+        <li>
+          <i class="fa-solid fa-person-running"></i>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </li>
+        <li>
+          <i class="fa-solid fa-mitten"></i>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </li>
+        <li>
+          <i class="fa-solid fa-shirt"></i>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </li>
+        <li>
+          <i class="fa-solid fa-shower"></i>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </li>
+        <li>
+          <i class="fa-solid fa-beer-mug-empty"></i>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </li>
+      </ul>
+
+    </div>
+
+  </article>
+</section>
+
+<section id="bannerLogo">
+  <article class="contenedor">
+    <img src="img/logo.svg" alt="logo">
+  </article>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+  <div class="contenedor">
+    <h2>Seguínos en las redes sociales</h2>
+    <div class="redes">
+      <ul>
+        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+      </ul>     
+    </div>
+  </div>
+  <div class="copyright">
+    <p>© 2023 Canchas Cancheras</p>
+    <p><a href="#terminos">Terminos y Condiciones</a> | <a href="#politicas">Políticas de Privacidad</a></p>
+  </div>
+</footer>
+
+<!-- ACÁ CARGAMOS LOS JS -->
+<script src="js/cositas.js"></script>
+
+</body>
+</html>
