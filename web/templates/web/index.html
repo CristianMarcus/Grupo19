@@ -1,3 +1,4 @@
+{% load static %}
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -6,13 +7,15 @@
     comisión:="24309"
     grupo:="19"
     integrantes:="Martín, Martín, Cristian, Damian, G Briceño" >
-  <link rel="shortcut icon" href="img/icono.svg" type="image/x-icon">
+  <link rel="shortcut icon" href="{% static 'web/img/icono.svg}" type="image/x-icon">
+  
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
   />
+  
+    <link rel="stylesheet" href="{% static 'css/estilo.css' %}">
 
-  <link rel="stylesheet" href="css/estilo.css">
   <title>CANCHAS CANCHERAS - Home</title>
 </head>
 
@@ -22,8 +25,8 @@
 <header class="w100">
   <section class="contenedorHeader">
     <div id="logo">
-      <a href="index.html">
-        <img src="img/logo.svg" />
+      <a href="{% url 'index' %}">
+        <img src="{% static 'img/logo.svg' %}" />
       </a>
     </div>
     <nav>
