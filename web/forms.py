@@ -1,7 +1,6 @@
+# myapp/forms.py
 from django import forms
 
-class altaReservaForm(forms.forms):
-    nombre = forms.CharField(label='Nombre del Reservador', required=True)
-    apellido = forms.CharField(label='Apellido del Reservador', required=True)
-    dni = forms.IntegerField(label='Dni', required=True)
-    email = forms.EmailField(label='email',required=True )
+class LoginForm(forms.Form):
+    username = forms.CharField(max_length=100)
+    password = forms.CharField(widget=forms.PasswordInput)

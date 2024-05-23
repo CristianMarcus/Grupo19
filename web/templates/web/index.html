@@ -6,16 +6,10 @@
   <meta
     comisión:="24309"
     grupo:="19"
-    integrantes:="Martín, Martín, Cristian, Damian, G Briceño" >
-  <link rel="shortcut icon" href="{% static 'web/img/icono.svg}" type="image/x-icon">
-  
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-  />
-  
-    <link rel="stylesheet" href="{% static 'css/estilo.css' %}">
+    integrantes:="Martín, Martín, Cristian, Damian," >
 
+  <link rel="shortcut icon" href="{% static 'web/img/icono.svg}" type="image/x-icon">
+  <link rel="stylesheet" href="{% static 'css/estilo.css' %}">
   <title>CANCHAS CANCHERAS - Home</title>
 </head>
 
@@ -50,8 +44,8 @@
     <li id="carruselPrincipal" class="carruseles">
       <div class="contenedor">
         <h1>Bienvenido a <span>Canchas Cancheras</span></h1>
-        <img src="img/logoBlanco.svg">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec
+        <img src="{% static 'img/logoBlanco.svg' %}">
+        <p>asdasdasd dolor sit amet, consectetur adipiscing elit. Vestibulum nec
           mi sed odio tristique aliquet. 
         </p>
       </div>
@@ -94,14 +88,14 @@
   <article class="contenedor">
     <h2><i class="fa-regular fa-futbol"></i> Conocé nuestras canchas</h2>
       <ul>
-        <li><img src="img/canchita-01.jpg" alt="Cancha 1"></li>
-        <li><img src="img/canchita-02.jpg" alt="Cancha 2"></li>
-        <li><img src="img/canchita-03.jpg" alt="Cancha 3"></li>
-        <li><img src="img/canchita-04.jpg" alt="Cancha 4"></li>
-        <li><img src="img/canchita-04.jpg" alt="Cancha 5"></li>
-        <li><img src="img/canchita-03.jpg" alt="Cancha 6"></li>
-        <li><img src="img/canchita-02.jpg" alt="Cancha 7"></li>
-        <li><img src="img/canchita-01.jpg" alt="Cancha 8"></li>
+        <li><img src="{% static 'img/canchita-01.jpg' %}" alt="Cancha 1"></li>
+        <li><img src="{% static 'img/canchita-02.jpg' %}" alt="Cancha 2"></li>
+        <li><img src="{% static 'img/canchita-03.jpg' %}" alt="Cancha 3"></li>
+        <li><img src="{% static 'img/canchita-04.jpg' %}" alt="Cancha 4"></li>
+        <li><img src="{% static 'img/canchita-05.jpg' %}" alt="Cancha 5"></li>
+        <li><img src="{% static 'img/canchita-06.jpg' %}" alt="Cancha 6"></li>
+        <li><img src="{% static 'img/canchita-07.jpg' %}" alt="Cancha 7"></li>
+        <li><img src="{% static 'img/canchita-08.jpg' %}" alt="Cancha 8"></li>
       </ul>
       <button class="boton"><p>Reservá tu cancha</p></button>
   </article>

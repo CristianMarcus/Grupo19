@@ -1,19 +1,17 @@
 {% load static %}
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta
     comisión:="24309"
     grupo:="19"
-    integrantes:="Martín, Martín, Cristian, Damian, G Briceño" >
-  <link rel="shortcut icon" href="img/icono.svg" type="image/x-icon">
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-  />
-
-  <link rel="stylesheet" href="{% static 'css/estilo.css' %}">
+    integrantes:="Martín, Martín, Cristian, Damian," >
+<link rel="shortcut icon" href="{% static 'web/static/img/icono.svg}" type="image/x-icon">
+<link rel="stylesheet" href="{% static 'css/estilo.css' %}">
+  
+ 
+  
   <title>Quiénes Somos - CANCHAS CANCHERAS</title>
 </head>
 
@@ -23,16 +21,16 @@
 <header class="w100">
   <section class="contenedorHeader">
     <div id="logo">
-      <a href="index.html">
-        <img src="img/logo.svg" />
+      <a href="{% url 'index' %}">
+        <img src="{% static 'img/logo.svg' %}" />
       </a>
     </div>
     <nav>
       <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="somos.html">Quienes Somos</a></li>
-        <li><a href="reservas.html">Reservá tu cancha</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="{% url 'index' %}">Inicio</a></li>
+        <li><a href="{% url 'somos' %}">Quienes Somos</a></li>
+        <li><a href="{% url 'reservas' %}">Reservá tu cancha</a></li>
+        <li><a href="{% url 'contacto' %}">Contacto</a></li>
       </ul>
       <ul>
         <li><button class="botonDos">Crear Cuenta</button></li>
@@ -45,7 +43,7 @@
 <!-- MAIN -->
 <main id="somos">
   <section class="contenedor">
-    <img class="mobileImg" src="img/somos.jpg" alt="">
+    <img  src="{% static 'img/somos.jpg' %}" alt="imagen-pelota">
     <article>
       <h1>Quiénes somos</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec
@@ -100,6 +98,7 @@
 
 <!-- ACÁ CARGAMOS LOS JS -->
 <script src="js/cositas.js"></script>
+<script src="{% static 'web/static/js/cositas.js' %}"></script>
 
 </body>
 </html>
